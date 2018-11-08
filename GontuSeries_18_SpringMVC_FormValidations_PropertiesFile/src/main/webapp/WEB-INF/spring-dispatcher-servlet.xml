@@ -31,5 +31,7 @@
 	<bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 	  <property name="basename" value="WEB-INF/studentmessages">
 	  </property>
+	  <property name="cacheSeconds" value="1">
+	  </property>
 	</bean>
 </beans>
